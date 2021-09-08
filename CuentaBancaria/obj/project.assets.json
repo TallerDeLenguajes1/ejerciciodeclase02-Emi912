@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emilio\\source\\repos\\CuentaBancaria\\CuentaBancaria.csproj",
+      "projectUniqueName": "C:\\Users\\Emilio\\source\\repos\\ejerciciodeclase02-Emi912\\CuentaBancaria\\CuentaBancaria.csproj",
       "projectName": "CuentaBancaria",
-      "projectPath": "C:\\Users\\Emilio\\source\\repos\\CuentaBancaria\\CuentaBancaria.csproj",
+      "projectPath": "C:\\Users\\Emilio\\source\\repos\\ejerciciodeclase02-Emi912\\CuentaBancaria\\CuentaBancaria.csproj",
       "packagesPath": "C:\\Users\\Emilio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emilio\\source\\repos\\CuentaBancaria\\obj\\",
+      "outputPath": "C:\\Users\\Emilio\\source\\repos\\ejerciciodeclase02-Emi912\\CuentaBancaria\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
