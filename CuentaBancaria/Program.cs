@@ -15,11 +15,15 @@ namespace CuentaBancaria
 
         }
 
-        public virtual void Extraccion(int monto, TipoExtraccion num){
+        public virtual void Extraccion(int monto, TipoExtraccion num) {
 
 
         }
-        
+
+        public void getFondos()
+        {
+            Console.WriteLine("Fondos restantes " + fondos);
+        }
     }
  
     class CajaAhorro : Cuenta
@@ -104,7 +108,7 @@ namespace CuentaBancaria
       
         public override void Insercion(int monto)
         {
-            Console.WriteLine("Has hecho una insercion de " + monto + "A Cuenta corriente pesos");
+            Console.WriteLine("Has hecho una insercion de " + monto + " a Cuenta corriente pesos");
             fondos += monto;
         }
 
@@ -112,7 +116,7 @@ namespace CuentaBancaria
         {
             if (fondos > -5000)
             {
-                if (TipoExtraccion.CajeroAutomatico == num)
+                if (TipoExtraccion.CajeroAutomatico != num)
                 {
                     Console.WriteLine($"Has hecho una extraccion de {monto} por Cajero Humano");
                     fondos -= monto;
@@ -155,6 +159,8 @@ namespace CuentaBancaria
             cuentaPesos.Insercion(50000);
 
             cuentaPesos.Extraccion(1000, TipoExtraccion.CajeroAutomatico);
+            cuentaPesos.Extraccion(60000, TipoExtraccion.CajeroHumano);
+
         }
     }
 }
